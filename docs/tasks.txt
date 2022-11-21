@@ -1,0 +1,52 @@
+
+* Pet Clinic REST API
+Design REST service related with Pet Clinic, where pets have name and age.
+Add operation with pets batch update (for example add new field - owner)
+
+GET     clinic\{id}
+DELETE  clinic\{id}
+POST    clinic
+            params: { name: ..., age : ... }
+PUT     clinic\{id}
+            params: { age: ... }
+PATCH   clinic
+            params: { ids: ..., owner: ... }
+
+
+* Sorting big strings task
+Propose algorithm for sorting a bunch of long strings situated on disk.
+We have restriction of RAM size: so only one string could be loaded into RAM simultaneously.
+
+
+* Добавить решение CS задач:
+сортировки:
+- пирамидальная
+- быстрая
+    - со стеками
+    - на месте
+- подсчетом
+- блочная
+
+хеш-таблицы:
+- пробирование
+    - линейное
+    - квадратичное
+    - псевдослучайное
+- хеширование
+    - одинарное
+    - двойное
+
+Сочетания, размещения, с повторениями/без
+
+деревья:
+- добавление вершин
+- поиск вершин
+- удаление вершин
+- префиксные деревья
+
+
+* Task: search engine with suggestion ability
+We have search engine, it provides web-interface with text field where query could be typed.
+We want to add next feature: when user start typing - he will get suggestion with 10 most popular queries started from typed characters.
+File with most popular searches generated 1 time per day, it contains 1 mln lines, sorted by popularity.
+Propose design of such system.
